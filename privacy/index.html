@@ -30,8 +30,11 @@
             color: #2d3748;
             margin-top: 30px;
         }
-        p {
+        p, ul {
             margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 5px;
         }
         .last-updated {
             color: #6b7280;
@@ -45,46 +48,56 @@
         a:hover {
             text-decoration: underline;
         }
+        .highlight {
+            background-color: #eff6ff;
+            padding: 15px;
+            border-left: 4px solid #3b82f6;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Informativa sulla Privacy per TimePop</h1>
         <p class="last-updated">Ultimo aggiornamento: 25 Marzo 2026</p>
-
-        <p>Grazie per aver scelto di utilizzare <strong>TimePop</strong> ("l'Applicazione"). La tua privacy è per noi una priorità fondamentale. Questa informativa spiega come gestiamo le tue informazioni quando utilizzi la nostra applicazione mobile.</p>
-
-        <h2>1. Raccolta e utilizzo dei dati</h2>
-        <p><strong>TimePop è un'applicazione progettata per funzionare offline e rispettare la tua privacy in modo assoluto.</strong></p>
-        <p>Non raccogliamo, non trasmettiamo e non conserviamo alcun dato personale, cronologia di tracciamento o informazione sui tuoi progetti su server esterni. Tutto ciò che inserisci e tracci all'interno dell'applicazione (progetti, tag, tempistiche, impostazioni) viene <strong>salvato esclusivamente in locale sulla memoria del tuo dispositivo</strong>.</p>
-
-        <h2>2. Quali dati vengono elaborati sul dispositivo</h2>
-        <p>L'App elabora e salva sul dispositivo i seguenti dati a puro scopo di funzionamento tecnico:</p>
+        <p>Grazie per aver scelto di utilizzare <strong>TimePop</strong> ("l'Applicazione"). La tua privacy è per noi una priorità fondamentale. Questa informativa spiega come raccogliamo, utilizziamo, proteggiamo e gestiamo le tue informazioni personali quando utilizzi la nostra applicazione mobile e i servizi connessi.</p>
+        <h2>1. Quali dati raccogliamo</h2>
+        <p>Per fornire le funzionalità complete di TimePop, inclusa la gestione dell'abbonamento Premium e l'accesso su più dispositivi, raccogliamo i seguenti dati:</p>
         <ul>
-            <li>Nomi dei progetti e relativi colori.</li>
-            <li>Registrazioni del tempo, note e tag personalizzati.</li>
-            <li>Preferenze dell'interfaccia utente (tema scuro/chiaro, layout visivo).</li>
-            <li>Stato di attivazione delle funzioni Premium (verificato tramite gli store autorizzati).</li>
+            <li><strong>Dati di Registrazione:</strong> Quando crei un account, ti chiediamo di fornire un nome utente, un indirizzo email e una password (che viene crittografata e non salvata in chiaro).</li>
+            <li><strong>Dati di Tracciamento del Tempo:</strong> I progetti, i tag e le sessioni di tempo che registri possono essere sincronizzati con i nostri server in modo sicuro associati al tuo account.</li>
+            <li><strong>Dati di Utilizzo Tecnico:</strong> Raccogliamo informazioni base sul dispositivo (modello, sistema operativo) per diagnosticare errori (crash) e migliorare l'esperienza utente.</li>
         </ul>
-
-        <h2>3. Condivisione dei dati</h2>
-        <p>Essendo un'app basata su memorizzazione locale, <strong>non condividiamo, vendiamo o trasferiamo nessuna tua informazione a terze parti</strong>. Non avendo accesso ai tuoi dati generati nell'app, ci è materialmente impossibile effettuarne l'accesso o la condivisione.</p>
-
-        <h2>4. Permessi dell'Applicazione</h2>
-        <p>TimePop potrebbe richiedere permessi base per il funzionamento sul tuo dispositivo (come l'accesso alla memoria per salvare i dati o l'invio di notifiche locali per gli avvisi del timer). Puoi gestire questi permessi direttamente dalle impostazioni del tuo sistema operativo.</p>
-
-        <h2>5. Applicazioni di Terze Parti (Analitiche o Crashlytics)</h2>
-        <p>Allo stato attuale, l'App non integra tracker di terze parti a fini pubblicitari. Le piattaforme di distribuzione (es. Google Play Store) potrebbero raccogliere dati aggregati e resoconti di anomalia (crash logs) in conformità con le loro rispettive policy sulla privacy, su cui non abbiamo potere di controllo diretto ma che sono soggetti alle tue preferenze account di Google.</p>
-
-        <h2>6. Sicurezza e conservazione dei dati</h2>
-        <p>Poiché i dati rimangono sul tuo dispositivo, la sicurezza di questi è strettamente legata alla sicurezza intrinseca del dispositivo stesso (password, PIN, biometria). Disinstallando l'applicazione o cancellandone i dati, si perderanno tutte le informazioni di tracciamento inserite in modo irreversibile (salvo backup di sistema effettuati dall'utente).</p>
-
-        <h2>7. Modifiche a questa Informativa</h2>
-        <p>Ci riserviamo il diritto di aggiornare periodicamente questa Informativa sulla Privacy. Pubblicheremo qualsiasi nuova versione su questa pagina con la relativa data di aggiornamento.</p>
-
-        <h2>8. Contatti</h2>
-        <p>In caso di domande o dubbi riguardanti la nostra Informativa sulla Privacy o le pratiche dell'Applicazione, non esitare a contattarci.</p>
+        <h2>2. Gestione dei Pagamenti (Versione Premium)</h2>
+        <p>Se decidi di passare alla versione <strong>TimePop Premium</strong>, l'elaborazione del pagamento viene gestita interamente da servizi o store di terze parti sicuri e certificati (es. Google Play Billing, Apple App Store o Stripe).</p>
+        <div class="highlight">
+            <strong>Importante:</strong> Noi non raccogliamo, non visualizziamo e non memorizziamo mai i dati completi della tua carta di credito o le tue informazioni finanziarie. Riceviamo esclusivamente un "token" o una ricevuta automatica che ci conferma il successo dell'acquisto per poterti sbloccare le funzionalità Premium (come i grafici storici avanzati).
+        </div>
+        <h2>3. Come utilizziamo le tue informazioni</h2>
+        <p>Utilizziamo i tuoi dati esclusivamente per i seguenti scopi:</p>
+        <ul>
+            <li>Creare, autenticare e manternere il tuo account utente.</li>
+            <li>Erogare le funzionalità dell'app e garantire la sincronizzazione dei tuoi dati tra i dispositivi.</li>
+            <li>Gestire gli abbonamenti e riconoscere il tuo status Premium.</li>
+            <li>Inviare comunicazioni di servizio (es. recupero password o modifiche all'abbonamento).</li>
+        </ul>
+        <h2>4. Sicurezza e Conservazione dei Dati</h2>
+        <p>Proteggiamo i tuoi dati adottando misure di sicurezza standard del settore. Le connessioni tra l'app e i nostri server sono cifrate tramite protocolli sicuri (HTTPS/TLS). Conserviamo le tue informazioni personali solo per il tempo in cui il tuo account risulta attivo e necessario per fornirti i servizi richiesti.</p>
+        <h2>5. Eliminazione dell'Account e dei Dati</h2>
+        <p>Hai pieno controllo sulle tue informazioni. Puoi richiedere la <strong>cancellazione definitiva del tuo account e di tutti i dati associati</strong> (inclusi i tuoi progetti e le registrazioni tempo) in qualsiasi momento.</p>
+        <ul>
+            <li><strong>Direttamente dall'App:</strong> Puoi trovare l'opzione "Elimina Account" nella sezione delle impostazioni del tuo profilo all'interno dell'app.</li>
+            <li><strong>Contattandoci:</strong> In alternativa, puoi inviarci un'email all'indirizzo indicato a fondo pagina.</li>
+        </p>
+        <p>Una volta confermata la cancellazione, i tuoi dati personali verranno rimossi dai nostri sistemi entro 30 giorni, fatte salve eventuali conservazioni strettamente necessarie per ottemperare ad obblighi legali e fiscali (ad es. storico acquisti).</p>
+        <h2>6. Modifiche a questa Informativa</h2>
+        <p>Ci riserviamo il diritto di aggiornare periodicamente questa Informativa sulla Privacy per riflettere eventuali nuovi funzionamenti o obblighi di legge. Pubblicheremo qualsiasi nuova versione su questa pagina.</p>
+        <h2>7. Contatti</h2>
+        <p>In caso di domande o dubbi riguardanti la nostra Informativa sulla Privacy, le modalità di pagamento o per richiedere supporto riguardo l'eliminazione dei dati, contattaci a:</p>
         <p>Email: <a href="mailto:iltuoindirizzo@email.com">[Inserisci la tua email di contatto]</a></p>
     </div>
+</body>
+</html>
 </body>
 </html>
